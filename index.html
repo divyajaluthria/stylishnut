@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Index</title>
+  <link rel="stylesheet" href="stylenut.css">
+		
+</head>
+
+<body>
+	<div class="logo">	
+	<div class="lgo"><a href="index.html"> <img src="lgo.png" width="220px" height="80px"> </a> </div>
+		<div class="head">Stylish<b>NUT</b></div>
+		<div class="s1">•Sweet •Flirty •Colorful</div>
+		<div class="contact" >Contact-Us: +91 7053372818 <br> Gmail: stylishnut@gmail.com</div>
+</div>
+
+<div class="navbar">
+
+ <div class="dropdown">
+    <button class="dropbtn">MENS 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="shirt.html">Shirts</a>
+      <a href="jeansm.html">Jeans</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">WOMENS 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="top.html" class="zoom">Top Wear</a>
+      <a href="party.html" class="zoom">Party Wear</a>
+      <a href="shoe.html">Footwear</a>
+      <a href="jeans.html">Jeans</a>
+      <a href="makeup.html">Beauty & Personal Care</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">KIDS 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">BOOKS 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+</div>
+
+<hr class="hr">
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="slider3.jpg" style="width:100%; height: 580px;">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="slider1.jpg" style="width:100%; height: 580px;">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="kid1.jpg" style="width:100%; height: 580px;">
+</div>
+
+</div>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<div class="box1">
+  <div class="women1">
+    <div class="wom1"><a href="top.html"> <img src="wob.jpg" width="48%" height="500px"></a></div>
+    <div class="wom2"><a href="dress.html"> <img src="wob1.jpg" width="97%" height="500px"></a></div>
+  </div>    
+</div>
+
+<div style="margin-left: 200px; margin-top: 450px;"><img src="wob5.jpg"></div>
+
+<div class="box2">
+    <hr style="width: 39%; border-width: 1px; border-color: black; margin-left: 25px;">
+<p style="font-family: gabriola; font-size: 50px; margin-top: -50px; text-align: center;"><b>Our Products</b></p>
+<hr style="width: 39%; border-width: 1px; border-color: black; margin-left: 59%; margin-top: -95px;">
+
+    <div class="pich1">
+    <img src="moda.JPG" class="image1">
+    <div class="prod1"><a href="moda.html" style="text-decoration : none; color: black;"><b style="font-size: 22px;">Moda Rapido</b><br><b style="font-size: 14px;">Women Off-White Printed Blouson Crop Top<br>❤❤❤<br> Rs.585 <strike style="color: red;">Rs. 1170</strike><br>(50% OFF)</b></a></div>
+  </div>
+
+  <div class="pich2">
+    <img src="deepika.JPG" width="260px" height="320px" class="image2">
+    <div class="prod2"><a href="deepika.html" style="text-decoration : none; color: black;"><b style="font-size: 22px;">All about you</b><br><b style="font-size: 14px;">Beige Floral Printed Top<br>❤❤❤<br> Rs.1999</b></a></div>
+  </div>
+
+  <div class="pich3">
+    <img src="nayo.JPG" width="260px" height="320px" class="image3">
+    <div class="prod3"><a href="nayo.html" style="text-decoration : none; color: black;"><b style="font-size: 22px;">Nayo</b><br><b style="font-size: 14px;">Magenta & Cream Dhoti Saree<br>❤❤❤<br> Rs.1399 <strike style="color: red;">Rs. 1999</strike><br>(59% OFF)</b></a></div>
+  </div>
+
+  <div class="pich4">
+    <img src="laurel4.jpg" width="260px" height="320px" class="image4">
+    <div class="prod4"><a href="laurel.html" style="text-decoration : none; color: black;"><b style="font-size: 22px;">laurel</b><br><b style="font-size: 14px;">Ruffle Crop Top<br>❤❤❤<br> Rs.1067 <strike style="color: red;">Rs. 1281</strike><br>(214 Rs. OFF)</b></a></div>
+  </div>
+
+  <div class="pich5">
+    <img src="kaftan.JPG" width="260px" height="320px" class="image5">
+    <div class="prod5"><a href="kaftan.html" style="text-decoration : none; color: black;"><b style="font-size: 17px;">Kaftan Company</b><br><b style="font-size: 14px;">Women Red & Beige Kaftan Dress<br>❤❤❤<br> Rs.7200 <strike style="color: red;">Rs. 9000</strike><br>(20% OFF)</b></a></div>
+  </div>
+
+  <div class="pich6">
+    <img src="uf.JPG" width="260px" height="320px" class="image6">
+    <div class="prod6"><a href="uf.html" style="text-decoration : none; color: black;"><b style="font-size: 22px;">U&F</b><br><b style="font-size: 14px;">Women Purple Solid Cinched Waist Top<br>❤❤❤<br> Rs.543 <strike style="color: red;">Rs. 1699</strike><br>(68% OFF)</b></a></div>
+  </div>
+</div>
+
+<div class="box3">
+    <a href="shoe.html"> <img src="shoe.jpg" class="wom3"></a>
+    <a href="makeup.html"> <img src="makeup.gif" class="wom4"></a>
+    <a href="jeans.html"> <img src="makeup1.gif" class="wom5"></a>
+    <div class="bs1"><b>D<br>I<br> S<br> C<br> O<br> V<br> E<br> R</b></div>
+    <div class="bs2"><b> N<br> E<br> W</b> </div>
+</div>
+
+<div class="box4">
+  <div class="men1">
+    <div class="men2"><a href="mshoe.html"> <img src="shirt2.jpg" width="54%" height="400px"></a></div>
+    <div class="men3"><a href="shirt.html"> <img src="shirt1.jpg" width="95%" height="560px"></a></div>
+    <div class="men4">THESE ARE A BIG DEAL ! !</div>
+  </div>    
+</div>
+
+<div class="box5">
+  <hr style="width: 39%; border-width: 1px; border-color: black; margin-left: 25px;">
+<p style="font-family: gabriola; font-size: 50px; margin-top: -50px; text-align: center;"><b>Our Products</b></p>
+<hr style="width: 39%; border-width: 1px; border-color: black; margin-left: 59%; margin-top: -95px;">
+    <div class="pich7">
+    <img src="harvard.JPG" class="image7">
+    <div class="prod7"><a href="harvard.html" style="text-decoration : none; color: black;"><b style="font-size: 22px;">Harvard</b><br><b style="font-size: 14px;">Men Pink & Navy Slim Fit Checked Casual Shirt<br>❤❤❤<br> Rs.1399 <strike style="color: red;">Rs. 1999</strike><br>(59% OFF)</b></a></div>
+  </div>
+
+  <div class="pich8">
+    <img src="harvardblue.JPG" width="260px" height="320px" class="image8">
+    <div class="prod8"><a href="harvardblue.html" style="text-decoration : none; color: black;"><b style="font-size: 22px;">Harvard</b><br><b style="font-size: 14px;">Men Red & White Slim Fit Striped Casual Shirt<br>❤❤❤<br> Rs.1399 <strike style="color: red;">Rs. 1899</strike><br>(40% OFF)</b></a></div>
+  </div>
+
+  <div class="pich9">
+    <img src="harvardg.JPG" width="260px" height="320px" class="image9">
+    <div class="prod9"><a href="harvardg.html" style="text-decoration : none; color: black;"><b style="font-size: 22px;">Harvard</b><br><b style="font-size: 14px;">Men Navy & Green Slim Fit Checked Casual Shirt<br>❤❤❤<br> Rs.999 <strike style="color: red;">Rs. 1999</strike><br>(50% OFF)</b></a></div>
+  </div>
+
+  <div class="pich10">
+    <img src="harvardnb.JPG" width="260px" height="320px" class="image10">
+    <div class="prod10"><a href="harvardnb.html" style="text-decoration : none; color: black;"><b style="font-size: 17px;">Harvard</b><br><b style="font-size: 14px;">Men Navy Blue & Red Slim Fit Checked Casual Shirt<br>❤❤❤<br> Rs.1049 <strike style="color: red;">Rs. 2099</strike><br>(50% OFF)</b></a></div>
+  </div>
+
+  <div class="pich11">
+    <img src="harvardred.JPG" width="260px" height="320px" class="image11">
+    <div class="prod11"><a href="harvardred.html" style="text-decoration : none; color: black;"><b style="font-size: 22px;">Harvard</b><br><b style="font-size: 14px;">Men Red & White Slim Fit Striped Casual Shirt<br>❤❤❤<br> Rs.1329 <strike style="color: red;">Rs. 1899</strike><br>(30% OFF)</b></a></div>
+  </div>
+
+  <div class="pich12">
+    <img src="harvardw.JPG" width="260px" height="320px" class="image12">
+    <div class="prod12"><a href="harvardw.html" style="text-decoration : none; color: black;"><b style="font-size: 20xpx;">Mast & Harbour</b><br><b style="font-size: 14px;">Men Blue & White Slim Fit Checked Casual Shirt<br>❤❤❤<br> Rs.1189 <strike style="color: red;">Rs. 1699</strike><br>(30% OFF)</b></a></div>
+  </div>
+</div>
+
+<div class="box6">
+  <div class="kid1">
+    <div class="kid2"><a href="mshoe.html"> <img src="kid.jpg" width="100%" height="800px"></a></div>
+  </div>    
+</div>
+
+<div class="box7">
+  <hr style="width: 39%; border-width: 1px; border-color: black; margin-left: 25px;">
+  <p style="font-family: gabriola; font-size: 50px; text-align: center; margin-top: -20px;"><b>Our Products</b></p>
+  <hr style="width: 39%; border-width: 1px; border-color: black; margin-left: 59%; margin-top: -95px;">
+
+    <div class="pich13">
+    <img src="joggers.JPG" class="image13">
+    <div class="prod13"><a href="joggers.html" style="text-decoration : none; color: black;"><b style="font-size: 22px;">H&M</b><br><b style="font-size: 14px;">Boys Grey & Navy Blue Top and Joggers<br>❤❤❤<br> Rs.1499 </b></a></div>
+  </div>
+
+  <div class="pich14">
+    <img src="hood4.JPG" width="260px" height="320px" class="image14">
+    <div class="prod14"><a href="hood.html" style="text-decoration : none; color: black;"><b style="font-size: 20px;">Cherry Crumble</b><br><b style="font-size: 14px;">Boys Grey & Blue Colour Hoody<br>❤❤❤<br> Rs.1169 <strike style="color: red;">Rs. 2599</strike><br>(55% OFF)</b></a></div>
+  </div>
+
+  <div class="pich15">
+    <img src="sherwani.JPG" width="260px" height="320px" class="image15">
+    <div class="prod15"><a href="sherwani.html" style="text-decoration : none; color: black;"><b style="font-size: 22px;">JBN Creation</b><br><b style="font-size: 14px;">Boys Black & Maroon Solid Sherwani<br>❤❤❤<br> Rs.1249 <strike style="color: red;">Rs. 2499</strike><br>(50% OFF)</b></a></div>
+  </div>
+
+  <div class="pich16">
+    <img src="bow.JPG" width="260px" height="320px" class="image16">
+    <div class="prod16"><a href="bow.html" style="text-decoration : none; color: black;"><b style="font-size: 17px;">YK</b><br><b style="font-size: 14px;">Boys Maroon Regular Fit Solid Casual Shirt with Bow Tie<br>❤❤❤<br> Rs.839 <strike style="color: red;">Rs. 1399</strike><br>(40% OFF)</b></a></div>
+  </div>
+
+  <div class="pich17">
+    <img src="dhoti.JPG" width="260px" height="320px" class="image17">
+    <div class="prod17"><a href="dhoti.html" style="text-decoration : none; color: black;"><b style="font-size: 22px;">LilPicks</b><br><b style="font-size: 14px;">Boys Green & Black Dyed Kurta with Dhoti Pants<br>❤❤❤<br> Rs.1150</b></a></div>
+  </div>
+
+  <div class="pich18">
+    <img src="cargo.JPG" width="260px" height="320px" class="image18">
+    <div class="prod18"><a href="cargo.html" style="text-decoration : none; color: black;"><b style="font-size: 22px;">H&M</b><br><b style="font-size: 14px;">Boys Blue Cargo trousers<br>❤❤❤<br> Rs.824 <strike style="color: red;">Rs. 1499</strike><br>(45% OFF)</b></a></div>
+  </div>
+</div>
+
+<div class="box8">
+  <div><img src="kid3.jpg" width="100%"></div>
+</div>
+
+<footer>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28010.10616196862!2d77.17572828838264!3d28.651834774234455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d029c5f402ed3%3A0x942174294c9dd946!2sKarol%20Bagh%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1570115587497!5m2!1sen!2sin" frameborder="0" style="border:0;margin: 10px; width: 550px; height: 430px;" allowfullscreen=""></iframe>
+
+    <div class="pr">
+      <b>ONLINE SHOPPING</b>
+      <p>
+         <a href="#" style="text-decoration: none;color: #525252;">MENS</a><br><br>
+         <a href="#" style="text-decoration: none;color: #525252;">WOMENS</a><br><br>
+         <a href="#" style="text-decoration: none;color: #525252;">KIDS</a><br><br>
+         <a href="#" style="text-decoration: none;color: #525252;">BOOKS</a>
+      </p>
+    </div>
+
+    <div class="icon">
+      <div class="org">
+        <img src="grnt.png" width="60px">
+        <p style="font-family: Segoe UI Symbol;margin-left: 80px; font-size: 17px; margin-top: -60px;"><b>100% ORIGINAL</b> guarantee<br> for all products at stylish nut</p>
+      </div>
+
+      <div class="ret">
+        <img src="ret.png" width="60px">
+        <p style="font-family: Segoe UI Symbol;margin-left: 80px; font-size: 17px; margin-top: -60px;"><b>Return within 30days</b> of<br> receiving your order</p>
+      </div>
+
+      <div class="deli">
+        <img src="del.png" width="60px" height="65px">
+        <p style="font-family: Segoe UI Symbol;margin-left: 80px; font-size: 17px; margin-top: -60px;"><b>Get free delivery</b> for every<br> order above Rs. 1199</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
